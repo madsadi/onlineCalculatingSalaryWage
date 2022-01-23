@@ -161,12 +161,12 @@ function calc(){
       document.getElementById("insurance1").innerHTML= numberWithCommas(Math.floor(insurance));
       document.getElementById("sum-shortage").innerHTML= numberWithCommas(Math.floor(sumshortage));
       document.getElementById("tax1").innerHTML= numberWithCommas(Math.floor(parseFloat(tax1)));
-      document.getElementById("sum-pure").innerHTML= numberWithCommas(Math.floor(puresum));
+      document.getElementById("sum-pure").innerHTML= numberWithCommas(Math.floor(puresum))+' '+'Rial';
       document.getElementById("bonus1").innerHTML= numberWithCommas(Math.floor(bonus1));
       document.getElementById("home1").innerHTML= numberWithCommas(Math.floor(home1));
       //document.getElementById("sanavat1").innerHTML= numberWithCommas(sanavatmonth);
       //document.getElementById("eid").innerHTML= numberWithCommas(eid);
-      document.getElementById("words").innerHTML= Num2persian(Math.floor(puresum))+' '+'ریال';
+      // document.getElementById("words").innerHTML= Num2persian(Math.floor(puresum))+' '+'Rial';
 
 }
 

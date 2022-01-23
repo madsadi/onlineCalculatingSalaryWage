@@ -198,7 +198,7 @@ a{
 
 
 .menu{
-  margin-right: auto;
+  margin-left: auto;
   display: flex;
   flex-direction: row;
 }
@@ -235,7 +235,7 @@ dl, ol, ul {
 .dropdown-menu{
   border: 1px solid rgba(0,0,0,.15) ;
   border-radius: .75rem;
-  text-align: right;
+  text-align: left;
   padding: 0;
   margin-top: 15px;
 }
@@ -254,10 +254,31 @@ dl, ol, ul {
   margin-left: 0;
 }
 
+.menu-items a{
+  color: rgba(36,41,46,.7);
+  font-size: 14px;
+  font-weight: 500;
+  padding:0 5px;
+}
 
-.show .dropdown-item:hover{
+.dropdown-menu li:first-child:hover{
+  border-top-right-radius:0.75rem;
+  border-top-left-radius:0.75rem;
   background-color: red;
   color: white !important;
+
+}
+.dropdown-menu li:hover{
+  background-color: red;
+  color: white !important;
+
+}
+.dropdown-menu li:last-child:hover{
+  border-bottom-right-radius:0.75rem;
+  border-bottom-left-radius:0.75rem;
+  background-color: red;
+  color: white !important;
+
 }
 
 .burger{
@@ -307,13 +328,6 @@ dl, ol, ul {
   height: 1px;
 }
 
-
-
-.menu-items a{
-  color: rgba(36,41,46,.7);
-  font-size: 14px;
-  font-weight: 500;
-}
 
 .btn-publish{
   background-color: #db143d;
@@ -390,7 +404,7 @@ dl, ol, ul {
   border: 1px solid black;
   background-color: white;
   color: black;
-  text-align: right;
+  text-align: left;
   box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -416,10 +430,10 @@ dl, ol, ul {
   border-top: 1px solid black;
 }
 
-.paycheck .col-3:not(:last-child){
+.paycheck .col-3:not(:first-child){
   border-left: 1px solid black;
 }
-.paycheck .col-4:not(:last-child){
+.paycheck .col-4:not(:first-child){
   border-left: 1px solid black;
 }
 
@@ -429,7 +443,7 @@ dl, ol, ul {
 }
 
 .left{
-  float: left;
+  float: right;
 }
 
 .numeric{
@@ -494,10 +508,10 @@ dl, ol, ul {
 }
 
 .rial{
-  border-bottom-left-radius: 5px !important;
-  border-top-left-radius: 5px !important;
-  border-top-right-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+  border-bottom-right-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
   border-radius: 5px;
   font-size: 16px;
   padding: 6px;
@@ -510,10 +524,10 @@ dl, ol, ul {
 
 
 .cash{
-  border-top-right-radius: 5px !important;
-  border-bottom-right-radius: 5px !important;
-  border-bottom-left-radius: 0 !important;
-  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 5px !important;
+  border-top-left-radius: 5px !important;
 }
 
 .days{
@@ -536,6 +550,11 @@ dl, ol, ul {
   z-index: 1;
 }
 
+.bonus .form-check{
+  display:flex;
+  min-width: fit-content;
+}
+
 .form-check .form-check-input{
   float: right;
   margin-left: 5px;
@@ -546,7 +565,8 @@ dl, ol, ul {
   margin-bottom: auto;
 }
 
-.salary-concept .form-check-label{
+.salary-concept .
+-label{
   color: white;
 }
 
@@ -629,7 +649,7 @@ dl, ol, ul {
 }
 
 .bonus {
-  text-align: right;
+  text-align: left;
   margin:15px 40px;
 }
 

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial -scale=1">
-  <title>محاسبه آنلاین حقوق و دستمزدمحاسبه آنلاین حقوق و دستمزد کارگران در سال 1400 | محاسبه آنلاین حقوق ، بیمه و مالیات</title>
+  <title>Online Monthly calculating Salary and Wage</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css">
@@ -25,29 +25,29 @@
         <div class="menu">
           <div class="menu-bar">
             <ul class="menu-items">
-              <li><a href="#">خانه</a></li>
-              <li><a href="#">نسخه چاپی</a></li>
-              <li><a href="#">مجله</a></li>
-              <li><a href="#">دریافت اپلیکیشن</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Newspaper</a></li>
+              <li><a href="#">Magazine</a></li>
+              <li><a href="#">Application</a></li>
               <li>
                 <div class="dropdown">
                   <button class="btn dropdown-toggle" style="font-size: 19px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    سایر
+                    Others
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">درباره ما</a></li>
-                    <li><a class="dropdown-item" href="#">قوانین و مقررات</a></li>
-                    <li><a class="dropdown-item" href="#">ارتباط با ما</a></li>
-                    <li><a class="dropdown-item" href="#">دفاتر و نمایندگی ها</a></li>
-                    <li><a class="dropdown-item" href="#">تعرفه ها</a></li>
+                    <li><a class="item" href="#">About</a></li>
+                    <li><a class="item" href="#">Rules</a></li>
+                    <li><a class="item" href="#">Contact</a></li>
+                    <li><a class="item" href="#">Branches</a></li>
+                    <li><a class="item" href="#">tariff</a></li>
                   </ul>
               </div>
               </li>
-              <li><a href="#">ثبت نام/ورود</a></li>
+              <li><a href="#">Login / Sign up</a></li>
             </ul>
           </div>
           <div class="publish">
-            <button type="button" class="btn btn-publish">ثبت آگهی</button>
+            <button type="button" class="btn btn-publish">Add</button>
           </div>
         </div>
         <div class="logo1">
@@ -55,7 +55,7 @@
         </div>
         <div class="blah" >
           <div class="publish1">
-            <button type="button" class="btn btn-publish btn-sm">ثبت آگهی</button>
+            <button type="button" class="btn btn-publish btn-sm">Add</button>
           </div>
           <div class="burger" id="burger">
             <img class="img-fluid" style="height: 100%" src="assets/download%20(2).svg">
@@ -67,23 +67,23 @@
   </div>
 <div class="salary">
   <div class="container-small">
-    <h1>محاسبه آنلاین حقوق و دستمزد ماهانه سال 1400</h1>
+    <h1>Online Monthly calculating Salary and Wage</h1>
     <div class="salary-calc">
       <div class="salary-field row">
         <div class="salary-daily">
           <div class="row">
             <div class="item-1 col-lg-4 col-md-12">
-              <div class="mb-1" style="text-align: right">
-                <span>دستمزد روزانه</span>
+              <div class="mb-1" style="text-align: left">
+                <span>Daily Wage</span>
               </div>
               <div style="display: flex">
                 <input type="text" id="DEMO" class="form-control cash mask" placeholder=""  aria-label="Username" aria-describedby="basic-addon1" required>
-                <span class="input-group-text rial" id="basic-addon1">ریال</span>
+                <span class="input-group-text rial" id="basic-addon1">Rial</span>
               </div>
             </div>
             <div class="item-2 col-lg-4 col-md-12">
-              <div class="mb-1" style="text-align: right;">
-                <span>تعداد روز کارکرد ماهانه</span>
+              <div class="mb-1" style="text-align: left">
+                <span>Days Of Work in Month</span>
               </div>
               <div>
                 <input type="text" id="days" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1" required>
@@ -91,14 +91,14 @@
             </div>
             <div class="item-3 col-lg-4 col-md-12" style="text-align: center">
               <div class="mb-3" style="padding-left: 25px">
-                <span>مبنای محاسبه حقوق ماهانه</span>
+                <span>Type Of Month</span>
               </div>
               <div class="salary-concept">
                 <div id="formcheck" name="formcheck" class="form-check">
                   <input type="radio" id="si" name="rooz" value="30">
-                  <label for="food">30 روز</label>
+                  <label for="food">30 days</label>
                   <input style="margin-right: 20px;" type="radio" id="sioyek" name="rooz" value="31">
-                  <label for="hm">31 روز</label>
+                  <label for="hm">31 days</label>
                 </div>
               </div>
             </div>
@@ -107,15 +107,15 @@
       </div>
       <div class="others row">
         <div class="col-lg-4 col-sm-12">
-          <span class="mb-1" style="float: right">تعداد ساعات اضافه کاری</span>
+          <span class="mb-1" style="float: left">Overtime Hours</span>
           <input type="text" id="overtime" class="form-control overtime" placeholder="" aria-label="Username" aria-describedby="basic-addon1" required>
         </div>
         <div class="col-lg-4 col-sm-12">
-          <span class="mb-1" style="float: right">تعداد ساعات تعطیل کاری</span>
+          <span class="mb-1" style="float: left">Holiday Hours</span>
           <input type="text" id="holiday" class="form-control holiday" placeholder="" aria-label="Username" aria-describedby="basic-addon1" required>
         </div>
         <div class="col-lg-4 col-sm-12">
-          <span class="mb-1" style="float: right">تعداد ساعات شب کاری</span>
+          <span class="mb-1" style="float: left">Night Hours</span>
           <input type="text" id="nightshift" class="form-control night-shift" placeholder="" aria-label="Username" aria-describedby="basic-addon1" required>
         </div>
       </div>
@@ -124,133 +124,133 @@
         <div class="bonus row">
           <div class="form-check col-lg-2 col-md-3 col-sm-4">
             <input type="checkbox" id="food" name="fav_language" value="6000000">
-            <label for="food">حق خوار و بار</label>
+            <label for="food">Allowance for household items</label>
           </div>
           <div class="form-check col-lg-2 col-md-3 col-sm-4">
             <input type="checkbox" id="hm" name="fav_language" value="4500000">
-            <label for="hm">حق مسکن</label>
+            <label for="hm">Housing allowance</label>
           </div>
           <div class="form-check col-lg-2 col-md-3 col-sm-4">
             <input type="checkbox" id="eidi" name="fav_language" disabled>
-            <label for="hm">عیدی ماهانه</label>
+            <label for="hm">Gift</label>
           </div>
         </div>
         <div class="fundamental row">
-          <div class="col-lg-6 col-sm-12 hi" style="padding-right:0 ">
-            <span style="float: right">حق اولاد (عائله مندی)</span>
-            <input type="text" id="children" class="form-control days1" placeholder="تعداد فرزند" aria-label="Username" aria-describedby="basic-addon1">
+          <div class="col-lg-6 col-sm-12 hi" style="padding-left:0 ">
+            <span style="float: left">Children</span>
+            <input type="text" id="children" class="form-control days1" placeholder="Children Count" aria-label="Username" aria-describedby="basic-addon1">
           </div>
-          <div class="col-lg-6 col-sm-12 bye" style="padding-left: 0">
-            <span style="float: right">سابقه کار(به ماه)</span>
+          <div class="col-lg-6 col-sm-12 bye" style="padding-right: 0">
+            <span style="float: left">Experience(Month)</span>
             <input type="text" class="form-control days1" placeholder="" aria-label="Username" id="sabeghe" aria-describedby="basic-addon1">
           </div>
         </div>
       </div>
       <div class="calcu">
-        <a class="btn calc" onclick="calc()" data-bs-toggle="modal" href="#exampleModalToggle" role="button">محاسبه</a>
+        <a class="btn calc" onclick="calc()" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Calculate</a>
       </div>
     </div>
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalToggleLabel">فیش حقوقی</h5>
+            <h5 class="modal-title" id="exampleModalToggleLabel">Salary PayCheck</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <div class="paycheck" id="paycheck-1">
               <div class="row" style="border-bottom: none;border-top: none">
-                <div class="col-4">کد پرسنلی:</div>
-                <div class="col-4">کد ملی:</div>
-                <div class="col-4">شماره بیمه:</div>
+                <div class="col-4">ID No.:</div>
+                <div class="col-4">National ID:</div>
+                <div class="col-4">Insurance No.:</div>
               </div>
               <div class="row">
-                <div class="col-4">نام و نام خانوادگی:</div>
-                <div class="col-4">ماه و سال:</div>
-                <div class="col-4">شماره حساب:</div>
+                <div class="col-4">Name/Lastname:</div>
+                <div class="col-4">Month/Year:</div>
+                <div class="col-4">Bank Account:</div>
               </div>
               <div style="text-align: center !important;">
-                این فیش فقط با مهر کارگزینی شرکت معتبر می باشد
+                This Preview isn't Valid Unless The Company Approve it.
               </div>
               <div class="row" style="text-align: center">
-                <div class="col-3">کارکرد</div>
-                <div class="col-3">حقوق و مزایا</div>
-                <div class="col-3">کسورات</div>
-                <div class="col-3">سایر اطلاعات</div>
+                <div class="col-3">Function</div>
+                <div class="col-3">Salary & Points</div>
+                <div class="col-3">Deductions</div>
+                <div class="col-3">Others</div>
               </div>
               <div class="numeric">
                 <div class="col-3">
                   <div class="correspond">
-                    <span class="right">روزهای کارکرد</span>
+                    <span class="right">Days of Work</span>
                     <span class="left" id="days1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">دستمزد روزانه</span>
+                    <span class="right">Daily Wage</span>
                     <span class="left" id="daily-wage1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">ساعت اضافه کاری</span>
+                    <span class="right">Overtime Hours</span>
                     <span class="left" id="overtime1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">تعداد ساعات تعطیل کاری</span>
+                    <span class="right">Holiday Hours</span>
                     <span class="left" id="holiday1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">تعداد ساعات شب کاری</span>
+                    <span class="right">Night Hours</span>
                     <span class="left" id="nightshift1"></span>
                   </div>
                 </div>
                 <div class="col-3">
                   <div class="correspond">
-                    <span class="right">حقوق ماهیانه</span>
+                    <span class="right">Salary</span>
                     <span class="left" id="monthly-wage1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">بن خوار و بار</span>
+                    <span class="right">Food Aid</span>
                     <span class="left" id="bonus1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">حق مسکن</span>
+                    <span class="right">House Aid</span>
                     <span class="left" id="home1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">حق اولاد</span>
+                    <span class="right">Children</span>
                     <span class="left" id="children1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">مبلغ اضافه کاری</span>
+                    <span class="right">Overtime Money</span>
                     <span class="left" id="overtime-amount1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">مبلغ جمعه کاری</span>
+                    <span class="right">Weekend Money</span>
                     <span class="left" id="holiday-amount1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">مبلغ شب کاری</span>
+                    <span class="right">Night Shift Money</span>
                     <span class="left" id="nightshift-amount1"></span>
                   </div>
 
                 </div>
                 <div class="col-3">
                   <div class="correspond">
-                    <span class="right">بیمه</span>
+                    <span class="right">Insurance</span>
                     <span class="left" id="insurance1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">مالیات</span>
+                    <span class="right">Tax</span>
                     <span class="left" id="tax1"></span>
                   </div>
                   <div class="correspond">
-                    <span class="right">جریمه</span>
+                    <span class="right">Penalty</span>
                     <span class="left" id="penalty"></span>
                   </div>
 
                 </div>
                 <div class="col-3">
                   <div class="correspond">
-                    <span class="right">محل کار</span>
-                    <span class="left" id="workplace">تهران</span>
+                    <span class="right">Work Location</span>
+                    <span class="left" id="workplace">Tehran</span>
                   </div>
 
                 </div>
@@ -259,20 +259,20 @@
                 <div class="col-3"></div>
                 <div class="col-3">
                   <div class="correspond">
-                    <span class="right">جمع حقوق و مزایا:</span>
+                    <span class="right">Sum Of Salary & Points:</span>
                     <span class="left" id="sum1"></span>
                   </div>
                 </div>
                 <div class="col-3">
                   <div class="correspond">
-                    <span class="right">جمع کسورات:</span>
+                    <span class="right">Sum Of Deductions:</span>
                     <span class="left" id="sum-shortage"></span>
                   </div>
                 </div>
                 <div class="col-3"></div>
               </div>
               <div class="p-2">
-                خالص پرداختی:<span id="sum-pure"></span>
+                Net Salary:<span id="sum-pure"></span>
                 <span id="words"></span>
               </div>
             </div>
@@ -284,29 +284,29 @@
 </div>
 <div class="mobile-navbar" id="mobile">
   <div class="welcome">
-    <p style="margin-bottom: 0">کاربر مهمان خوش آمدید</p>
+    <p style="margin-bottom: 0">Welcome</p>
     <button type="button" class="exit" id="exit">
       <i class="bi bi-x-lg"></i>
     </button>
   </div>
   <div>
     <ul>
-      <li class="i1">خانه</li>
-      <li class="i2">نسخه چاپی</li>
-      <li class="i3">مجله</li>
-      <li class="i4">دریافت اپلیکیشن</li>
-      <li class="i5">سایر</li>
-      <li class="i6">ثبت نام / ورود</li>
+      <li class="i1">Home</li>
+      <li class="i2">Newspaper</li>
+      <li class="i3">Magazine</li>
+      <li class="i4">Application</li>
+      <li class="i5">Others</li>
+      <li class="i6">LogIn/SignUp</li>
     </ul>
   </div>
   <div class="pb" style="text-align: center;margin-top: 40px">
-    <button type="button" class="btn pub">ثبت آگهی</button>
+    <button type="button" class="btn pub">Add</button>
   </div>
 </div>
 <div class="salary-footer">
   <div id="slide">
     <div class="tools" id="tools">
-      برای ابزار بیشتر پایین بکشید
+      Click For More Tools
     </div>
     <i class="bi bi-caret-down-fill" id="bi-caret-down-fill"></i>
     <i class="bi bi-caret-up-fill" id="bi-caret-up-fill"></i>
@@ -315,28 +315,28 @@
 <div class="rule">
   <div class="container-small">
     <div class="rule-item">
-      <h3>دستمزد و حقوق  کارگران در سال ۱۴۰۰</h3>
-      <p style="text-align: justify">حداقل دستمزد روزانه مبنای وصول حق‌بیمه بیمه‌شدگان مشمول قوانین کار و تامین‌اجتماعی (به استثنای مشاغل و فعالیت‌های دارای دستمزد مقطوع)‌ ‌سال ۱۴۰۰ به بعد مبلغ ۸۵۵.۱۶۵  ریال می باشد. براین اساس با افزایش ۳۹ درصدی حداقل دستمزد در سال ۱۴۰۰، حقوق یک کارگر حداقلی بگیر با یک فرزند در مجموع  ۴ میلیون و ۱۱۱ هزار و ۴۱۷ تومان هر ماه دریافت خواهد کرد.</p>
+      <h3>Wages and salaries of workers in 1400</h3>
+      <p style="text-align: justify">The minimum daily wage is the basis for receiving the insurance premiums of the insured subject to labor and social security laws (excluding jobs and activities with a lump sum wage) ‌ ۰۰ 1400 onwards, amounting to 855,165 Rials. Accordingly, with a 39% increase in the minimum wage in 1400, a minimum wage worker with one child will receive a total of 4,111,417 tomans per month.</p>
       <ul>
-        <li>حداقل مزد روزانه معادل ۸۵۵.۱۶۵  ریال</li>
-        <li>حداقل دستمزد ماهانه (30 روزه) معادل ۲۶.۵۵۴.۹۲۵ ریال</li>
-        <li>کمک هزینه اقلام مصرفی بن خانوار معادل ۶.۰۰۰.۰۰۰ ریال</li>
-        <li>کمک هزینه مسکن  معادل ۴.۵۰۰.۰۰۰ ریال (لازم به ذکر است که حق مسکن ۴۵۰ هزار تومانی پس از تصویب هیات دولت لازم الاجراست.)</li>
-        <li>حق اولاد (به ازای هر فرزند) معادل ۲.۶۵۵.۴۹۲ ریال</li>
-        <li>پایه سنوات( به شرط داشتن یک سال سابقه کار) روزانه معادل ۴۶.۶۶۷ ریال</li>
+        <li>The minimum daily wage is equal to 855,165 Rials</li>
+        <li>The minimum monthly wage (30 days) is equal to 26,554,925 Rials</li>
+        <li>Allowance for household items equivalent to 6,000,000 Rials</li>
+        <li>Housing allowance equal to 4,500,000 Rials (It should be noted that the right to housing is 450,000 Tomans after the approval of the Cabinet.)</li>
+        <li>Child rights (per child) equal to 2,655,492 Rial</li>
+        <li>Basic years (provided you have one year of work experience) daily equivalent to 46,667 Rials</li>
       </ul>
     </div>
     <div>
-      <h3>نحوه محاسبه مزایای قانون کار در سال ۱۴۰۰</h3>
+      <h3>How to calculate the benefits of labor law in year 1400</h3>
       <ul>
-        <li>فرمول محاسبه مزد هر ساعت کار : مزد روزانه تقسیم بر ۷.۳۳ (هفت و سی و سه صدم)</li>
-        <li>فرمول محاسبه اضافه کاری قانون کار : مزد ساعتی ضربدر ۱.۴ (یک و چهاردهم) ضربدر ساعات اضافه کار</li>
-        <li>فرمول محاسبه جمعه کاری قانون کار : مزد ساعتی ضربدر ۰.۴ ( چهاردهم) ضربدر ساعات جمعه کاری</li>
-        <li>فرمول محاسبه شب کاری قانون کار : مزد ساعتی ضربدر ۰.۳۵ (سی و پنج صدم) ضربدر ساعات شب کاری</li>
-        <li>فرمول محاسبه سنوات سالانه : سابقه کار به سال ضربدر حقوق ماهاینه</li>
-        <li>فرمول محاسبه سنوات ماهانه : سابقه کار به ماه ضربدر ۲.۵ (دو و نیم) ضربدر مزد روزانه کارگر</li>
-        <li>فرمول محاسبه عیدی و پاداش سالانه : سابقه کار به سال ضربدر دوبرابرآخرین حقوق ماهاینه</li>
-        <li>فرمول محاسبه سنوات ماهانه : سابقه کار به ماه ضربدر ۵ ضربدر آخرین مزد روزانه کارگر</li>
+        <li>Wage calculation formula per working hour: daily wage divided by 7.33 (seven and thirty three hundredths)</li>
+        <li>Labor Law Overtime Calculation Formula: Hourly Wage Multiplied by 1.4 (One and Fourteenth) Multiplied by Overtime Hours</li>
+        <li>Labor Law Friday Job Calculation Formula: Hourly Wage Multiplied by 0.4 (Fourteenth) Multiplied by Friday Working Hours</li>
+        <li>Labor Law night work calculation formula: hourly wage multiplied by 0.35 (thirty five percent) multiplied by night work hours</li>
+        <li>Formula for calculating annual years: Work experience in years multiplied by monthly salary</li>
+        <li>Monthly years calculation formula: Work experience per month multiplied by 2.5 (two and a half) times the daily wage of the worker</li>
+        <li>Formula for calculating Eid and annual bonus: Work experience per year multiplied by the last monthly salary</li>
+        <li>Monthly years calculation formula: Work experience per month multiplied by 5 times the last daily wage of the worker</li>
       </ul>
     </div>
   </div>
