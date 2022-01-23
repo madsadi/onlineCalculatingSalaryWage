@@ -550,6 +550,15 @@ dl, ol, ul {
   z-index: 1;
 }
 
+.form-check{
+  margin-bottom: 0;
+}
+
+.form-check input[type="checkbox"]{
+  height: 20px;
+  margin-right: 8px;
+}
+
 .bonus .form-check{
   display:flex;
   min-width: fit-content;
